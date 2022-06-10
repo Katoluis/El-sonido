@@ -1,0 +1,226 @@
+@charset "utf-8";
+#menu {
+    list-style-position: inside;
+    list-style-type: square;
+    background-color: rgba(20,97,231,1.00);
+    border: 1px solid blank;
+ 
+}
+#menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	color: aliceblue;
+	float: left;
+	display: block;
+	list-style: none;
+	padding: 20px; 
+	margin: 10px;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	background-color:rgba(100,253,88,1.00);
+	color: rgba(0,0,0,1.00)
+}
+nav ul li {
+    color: rgba(255,255,255,1.00);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.titular center hr {
+	width: 600px;
+}
+.titular {
+    height: 225px;
+    width: 1200px;
+    padding-top: 35px;
+}
+.valor1 {
+    height: 475px;
+    width: 24%;
+    text-align: center;
+	float: left;
+	border-radius: 25px;
+    background-color: rgba(9,157,211,1.00);
+	border-style: solid;
+    border-width: 3px;
+
+}
+.valor2 {
+    height: 475px;
+    width: 24%;
+    text-align: center;
+	float: left;
+	border-radius: 25px;
+    background-color: rgba(9,157,211,1.00);
+	border-style: solid;
+    border-width: 2px;
+}
+.valor3 {
+    height: 475px;
+    width: 24%;
+    text-align: center;
+  	float: left;
+	border-radius: 25px;
+    background-color: rgba(9,157,211,1.00);
+	border-style: solid;
+    border-width: 2px;
+}
+.valor4 {
+    height: 475px;
+	width: 24%;
+    text-align: center;
+    float: left;
+    border-radius: 25px;
+    background-color: rgba(9,157,211,1.00);
+    border-style: solid;
+    border-width: 3px;
+
+	
+}
+img   {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid #0FED21;
+    border-radius: 100px;
+}
+.contenedor {
+	background-image: url("../Imagen/EL SONIDO.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+    height: 400px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.contenedor .titular center {
+    color: rgba(255,255,255,1.00);
+}
+h2 {
+    color: rgba(255,255,255,1.00);
+}
+p {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0,0,0,1.00);
+}
+.boton-1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(93,145,236,1.00);
+    height: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 22.5px;
+}
+.boton-2 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(93,145,236,1.00);
+    height: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 22.5px;
+}
+.boton-3 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color:rgba(93,145,236,1.00);
+    height: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 22.5px;
+}
+.boton-4 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(93,145,236,1.00);
+    height: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 22.5px;
+}
+
+.titular1 {
+    background-color: rgba(152,138,138,1);
+    height: 225px;
+    width: 1200px;
+}
+.boton-1:hover{
+    background-color: rgba(13,220,210,1.00);
+    color: rgba(0,0,0,1.00)
+}
+.boton-2:hover{
+	background-color:rgba(13,220,210,1.00);
+	color: rgba(0,0,0,1.00)
+}
+.boton-3:hover{
+	background-color:rgba(13,220,210,1.00);
+	color: rgba(0,0,0,1.00)
+}
+.boton-4:hover{
+	background-color:rgba(13,220,210,1.00);
+	color: rgba(0,0,0,1.00)
+}
+
+.contenedor .footer footer {
+    width: 100%;
+	height: 100px;
+	background: black;
+	color: white;
+    margin-top: 40px;
+}
+.footer footer  {
+    width: 100%;
+    height: 100px;
+    background: black;
+    color: white;
+    float: right;
+}
+.footer footer h5 {
+	text-align: center;
+	padding: 25px;
+}.contenedor .que.es.el.sonido h2 {
+    color: rgba(0,0,0,1.00);
+}
+.contenedor .que.es.el.sonido h1 {
+	color: rgba(0,48,201,1.00); 
+}
+center .MULTIPLICADOR h2 {
+	color: rgba(0,48,201,1.00);
+}
+center .DIVISOR h2 {
+	color: rgba(0,48,201,1.00);
+}
